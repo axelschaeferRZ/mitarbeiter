@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:mitarbeiter/Resources/Private/Language/locallang_csh" date="2020-10-07T21:40:40Z" product-name="mitarbeiter">
+		<header/>
+		<body>
+			<trans-unit id="vorname.description" resname="vorname.description">
+				<source>vorname</source>
+			</trans-unit>
+			<trans-unit id="nachname.description" resname="nachname.description">
+				<source>nachname</source>
+			</trans-unit>
+			<trans-unit id="gehalt.description" resname="gehalt.description">
+				<source>gehalt</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,15 @@
+
+# Module configuration
+module.tx_mitarbeiter_web_mitarbeitermitarbeiter {
+    persistence {
+        storagePid = {$module.tx_mitarbeiter_mitarbeiter.persistence.storagePid}
+    }
+    view {
+        templateRootPaths.0 = EXT:mitarbeiter/Resources/Private/Backend/Templates/
+        templateRootPaths.1 = {$module.tx_mitarbeiter_mitarbeiter.view.templateRootPath}
+        partialRootPaths.0 = EXT:mitarbeiter/Resources/Private/Backend/Partials/
+        partialRootPaths.1 = {$module.tx_mitarbeiter_mitarbeiter.view.partialRootPath}
+        layoutRootPaths.0 = EXT:mitarbeiter/Resources/Private/Backend/Layouts/
+        layoutRootPaths.1 = {$module.tx_mitarbeiter_mitarbeiter.view.layoutRootPath}
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "axelschaefer/mitarbeiter",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AxelSchaefer\\Mitarbeiter\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AxelSchaefer\\Mitarbeiter\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "axelschaefer/mitarbeiter": "self.version",
+        "typo3-ter/mitarbeiter": "self.version"
+    }
+}

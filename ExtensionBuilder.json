@@ -1,0 +1,118 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    389,
+                    125
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": true,
+                    "_default2_new_create": true,
+                    "_default3_edit_update": true,
+                    "_default4_delete": true,
+                    "customActions": []
+                },
+                "name": "Mitarbeiter",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "126100740837"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "vorname",
+                            "propertyType": "String",
+                            "uid": "284646708326"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "nachname",
+                            "propertyType": "String",
+                            "uid": "2138198237"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "gehalt",
+                            "propertyType": "String",
+                            "uid": "1459615978951"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [
+            {
+                "actions": {
+                    "controllerActionCombinations": ""
+                },
+                "description": "",
+                "key": "mitarbeiter",
+                "mainModule": "web",
+                "name": "mitarbeiter",
+                "tabLabel": "Mitarbeiter"
+            }
+        ],
+        "description": "",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 9.5.0-9.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "stable",
+            "targetVersion": "9.5.0-9.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "mitarbeiter",
+        "name": "mitarbeiter",
+        "originalExtensionKey": "mitarbeiter",
+        "originalVendorName": "AxelSchaefer",
+        "persons": [],
+        "plugins": [],
+        "vendorName": "AxelSchaefer"
+    },
+    "wires": [],
+    "storagePath": "\/var\/www\/my-new-project\/public\/typo3conf\/ext\/",
+    "log": {
+        "last_modified": "2020-10-07 09:40",
+        "extension_builder_version": "9.10.3",
+        "be_user": " (1)"
+    }
+}

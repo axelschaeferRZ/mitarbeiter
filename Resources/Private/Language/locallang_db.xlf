@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:mitarbeiter/Resources/Private/Language/locallang_db" date="2020-10-07T21:40:40Z" product-name="mitarbeiter">
+		<header/>
+		<body>
+			<trans-unit id="tx_mitarbeiter_domain_model_mitarbeiter" resname="tx_mitarbeiter_domain_model_mitarbeiter">
+				<source>Mitarbeiter</source>
+			</trans-unit>
+			<trans-unit id="tx_mitarbeiter_domain_model_mitarbeiter.vorname" resname="tx_mitarbeiter_domain_model_mitarbeiter.vorname">
+				<source>Vorname</source>
+			</trans-unit>
+			<trans-unit id="tx_mitarbeiter_domain_model_mitarbeiter.nachname" resname="tx_mitarbeiter_domain_model_mitarbeiter.nachname">
+				<source>Nachname</source>
+			</trans-unit>
+			<trans-unit id="tx_mitarbeiter_domain_model_mitarbeiter.gehalt" resname="tx_mitarbeiter_domain_model_mitarbeiter.gehalt">
+				<source>Gehalt</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
