@@ -40,6 +40,7 @@ class MitarbeiterController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCont
      */
     public function listAction()
     {
+        //eine Änderung
         $mitarbeiters = $this->mitarbeiterRepository->findAll();
         $this->view->assign('mitarbeiters', $mitarbeiters);
     }
