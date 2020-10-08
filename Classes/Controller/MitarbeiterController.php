@@ -42,6 +42,7 @@ class MitarbeiterController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCont
     {
         //eine Änderung
         //12345
+        // und eine weitere Aenderung äö
         $mitarbeiters = $this->mitarbeiterRepository->findAll();
         $this->view->assign('mitarbeiters', $mitarbeiters);
     }
